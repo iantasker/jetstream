@@ -214,8 +214,6 @@ class Jetstream
     {
         return Features::hasAccountDeletionFeatures();
     }
-    
-    sendsTeamInvitations
         
     /**
      * Determine if the application is using any send team invitations features.
