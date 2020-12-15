@@ -214,6 +214,18 @@ class Jetstream
     {
         return Features::hasAccountDeletionFeatures();
     }
+    
+    sendsTeamInvitations
+        
+    /**
+     * Determine if the application is using any send team invitations features.
+     *
+     * @return bool
+     */
+    public static function sendsTeamInvitations()
+    {
+        return Features::sendsTeamInvitations();
+    }
 
     /**
      * Find a user instance by the given ID.
